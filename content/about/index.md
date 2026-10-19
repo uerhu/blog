@@ -21,4 +21,4 @@ showAuthor = true
 本站使用 [CloudFlare](https://www.cloudflare.com/) 部署，仓库为 [GitHub](https://github.com/uerhu/blog)。
 
 ## 版权声明
-本站所有文章均采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议，转载请注明出处。
+除非特别说明，本站所有文章均采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议进行许可，转载请注明出处。
