@@ -1,0 +1,24 @@
+locale = "zh"
+label = "中文"
+direction = "ltr"
+weight = 1
+
+title = "uerBlog"
+copyright = "&copy; 2026 uerhu | <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\" target=\"_blank\">CC BY-NC-SA 4.0</a>"
+
+[params]
+  dateFormat = "2006年1月02日"
+
+  # mainSections = ["section1", "section2"]
+  # description = "My awesome website"
+
+[params.author]
+   name = "uerhu"
+   image = "author.png"
+   headline = "headline"
+   bio = "bio"
+   links = [
+     { email = "mailto:uerhu@uerhu.cn" },
+     { github = "https://github.com/uerhu" },
+     { rss = "/index.xml" },
+   ]
