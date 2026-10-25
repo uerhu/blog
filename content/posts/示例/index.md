@@ -10,10 +10,6 @@ keywords = ['Hugo语法']
 showAuthor = true
 +++
 
-{{< badge >}}
-未完成！
-{{< /badge >}}
-
 {{< alert >}}
 本文尚未完成，且可能遗漏某些用法，请以官方文档为准！
 {{< /alert >}}
@@ -261,6 +257,8 @@ graph LR
 
 ~~为什么这么丑？~~
 
+### 图形
+
 {{< mermaid >}}
 flowchart TD
     A[矩形]
@@ -272,6 +270,8 @@ flowchart TD
     G{菱形}
     H{{六边形}}
 {{< /mermaid >}}
+
+### 时序图
 
 {{< mermaid >}}
 ---
@@ -307,7 +307,61 @@ sequenceDiagram
     s ->> c: ACK=7
 
 {{< /mermaid >}}
+
 {{< alert "link" >}}
 [Mermaid](https://mermaid.js.org/) 是一个非常流行的开源图表绘制工具，
 这里只展示了非常小一部分，具体请看[官方文档（中文版）](https://mermaid.nodejs.cn/intro/)
 {{< /alert >}}
+
+## 短代码
+
+### Alert
+{{< alert >}}
+这是alert
+{{< /alert >}}
+
+{{< alert "link">}}
+alert + icon
+{{< /alert >}}
+
+### Badge
+
+{{< badge >}}
+Badge
+{{< /badge >}}
+
+### Button
+
+{{< button href="https://example.com" target="_blank" >}}
+按钮
+{{< /button >}}
+
+### Details
+
+{{< details summary="展示细节" >}}
+细节
+{{< /details >}}
+
+### Figure
+
+{{< figure
+    src="img.png"
+    alt="图片"
+    caption="图片"
+    >}}
+
+### Icon
+
+{{< icon "link" >}}
+{{< icon "email" >}}
+{{< icon "search" >}}
+
+### Lead
+
+{{< lead >}}
+这是lead。
+{{< /lead >}}
+
+### QR
+
+{{< qr text="https://blog.uerhu.cn/" />}}
